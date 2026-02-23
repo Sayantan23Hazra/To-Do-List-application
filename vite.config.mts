@@ -7,8 +7,8 @@ export default defineConfig({
     // Build as a micro-frontend style library (optional)
     lib: {
       entry: 'src/main.ts',
-      name: 'AiGeneratedTodo',
-      fileName: 'ai-generated-todo',
+      name: 'GeneratedTodo',
+      fileName: 'generated-todo',
       formats: ['es', 'umd']
     },
     rollupOptions: {
