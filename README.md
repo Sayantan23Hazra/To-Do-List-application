@@ -42,4 +42,4 @@ The Vite config is set up to build this app as a small library bundle, which can
 npm run build
 ```
 
-This produces an embeddable bundle under `dist/` that exposes the `AiGeneratedTodo` entry.
+This produces an embeddable bundle under `dist/` that exposes the `Todo` entry.
