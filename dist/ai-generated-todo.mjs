@@ -1,7 +1,7 @@
 import { ref as h, computed as _, defineComponent as K, resolveComponent as x, openBlock as d, createElementBlock as v, createElementVNode as s, toDisplayString as k, createCommentVNode as S, createVNode as B, withKeys as E, createBlock as V, withCtx as O, Fragment as $, renderList as z, normalizeClass as M, createApp as F } from "vue";
 import { defineStore as J, createPinia as P } from "pinia";
 import Y, { ElMessageBox as G } from "element-plus";
-const D = "ai_generated_todo_items";
+const D = "todo_items";
 function L() {
   try {
     const e = localStorage.getItem(D);
