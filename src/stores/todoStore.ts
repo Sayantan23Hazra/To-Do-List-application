@@ -8,7 +8,7 @@ export interface TodoItem {
   createdAt: number;
 }
 
-const STORAGE_KEY = 'ai_generated_todo_items';
+const STORAGE_KEY = 'generated_todo_items';
 
 function loadFromStorage(): TodoItem[] {
   try {
